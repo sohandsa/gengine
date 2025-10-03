@@ -1,0 +1,54 @@
+# ===================================================================
+# Build artifacts and compiled output
+# ===================================================================
+# Ignore the entire build directory
+/build/
+
+# Ignore compiled object files, libraries, and executables that might
+# accidentally be created outside the build directory.
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.dylib
+
+# The executable created by our CMakeLists.txt
+AnimationEngine
+
+
+# ===================================================================
+# OS-specific files
+# ===================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# ===================================================================
+# Editor and IDE configuration files
+# ===================================================================
+# VS Code
+.vscode/
+
+# CLion / IntelliJ
+.idea/
+
+# Vim
+*~
+*.swp
+*.swo
+
+
+# ===================================================================
+# Other generated files
+# ===================================================================
+# CMake user-specific files
+CMakeUserPresets.json
