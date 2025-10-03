@@ -56,7 +56,7 @@ The following libraries are included directly in the `lib/` directory and do not
     (If you have it on Git)
     ```bash
     git clone <your-repository-url>
-    cd c-animation-engine
+    cd gengine
     ```
 
 3.  **Create Build Directory:**
@@ -80,7 +80,6 @@ The following libraries are included directly in the `lib/` directory and do not
     ```
 
 ## Project Structure
-```bash
 ```bash
 gengine/
 |
