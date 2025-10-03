@@ -80,6 +80,8 @@ The following libraries are included directly in the `lib/` directory and do not
     ```
 
 ## Project Structure
+```bash
+```bash
 gengine/
 |
 ├── build/ # Compiled output (ignored by Git)
@@ -90,3 +92,5 @@ gengine/
 ├── .gitignore # Files and directories for Git to ignore
 ├── CMakeLists.txt # The CMake build script
 └── README.md # This file
+```
+```
